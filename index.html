@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizzeria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>PizzaMaster</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to PizzaMaster!</h2>
+            <p>Your favorite pizzeria, serving hot and fresh pizza!</p>
+            <button onclick="window.location.href='#menu'">Order Now</button>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-grid">
+            <!-- Pizza Item 1 -->
+            <div class="menu-item">
+                <img src="pizza1.jpg" alt="Pepperoni Pizza">
+                <h3>Pepperoni Pizza</h3>
+                <p>$9.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <!-- Pizza Item 2 -->
+            <div class="menu-item">
+                <img src="pizza2.jpg" alt="Veggie Pizza">
+                <h3>Veggie Pizza</h3>
+                <p>$8.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <!-- Pizza Item 3 -->
+            <div class="menu-item">
+                <img src="pizza3.jpg" alt="Cheese Pizza">
+                <h3>Cheese Pizza</h3>
+                <p>$7.99</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>PizzaMaster has been serving the best pizza in town since 1999. We use fresh ingredients and traditional recipes to make every pizza delicious!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 PizzaMaster. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
